@@ -1,9 +1,0 @@
-spring:
-  jpa:
-    hibernate:
-      ddl-auto: update
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://hansoldatabase1.css6lpgasmef.ap-northeast-2.rds.amazonaws.com/messageServer
-    username: hansol
-    password: gksthf135!
