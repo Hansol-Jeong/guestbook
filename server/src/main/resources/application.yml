@@ -1,3 +1,15 @@
 server:
   port: ${PORT:8081}
 
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://hansoldatabase1.css6lpgasmef.ap-northeast-2.rds.amazonaws.com:3306/messageServer
+    username: hansol
+    password: gksthf135!
+
+
+
