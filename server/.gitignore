@@ -37,4 +37,4 @@ out/
 .vscode/
 
 ### database ###
-/database.yml
+*/database.yml
