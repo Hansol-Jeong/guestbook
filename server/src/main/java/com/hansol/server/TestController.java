@@ -11,6 +11,9 @@ public class TestController {
     @Value("${hansol.name}")
     private String testString;
 
+    @Value("${hansol.firstName}")
+    private String testString2;
+
     @GetMapping("/test")
     public String test() {
         return this.testString;
@@ -19,5 +22,10 @@ public class TestController {
     @GetMapping("/test2")
     public String test2() {
         return "test2";
+    }
+
+    @GetMapping("/test3")
+    public String test3() {
+        return this.testString2;
     }
 }

@@ -8,4 +8,5 @@ spring:
       uri: http://localhost:8888
       fail-fast: false
   profiles:
-    active: database
+    active: database, test
+
