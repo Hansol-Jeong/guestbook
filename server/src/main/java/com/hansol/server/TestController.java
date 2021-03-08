@@ -14,6 +14,9 @@ public class TestController {
     @Value("${hansol.firstName}")
     private String testString2;
 
+    @Value("${sample.zipkin.enabled}")
+    private String testString3;
+
     @GetMapping("/test")
     public String test() {
         return this.testString;
@@ -28,4 +31,7 @@ public class TestController {
     public String test3() {
         return this.testString2;
     }
+
+    @GetMapping("/test4")
+    public String test4() { return this.testString3; }
 }
